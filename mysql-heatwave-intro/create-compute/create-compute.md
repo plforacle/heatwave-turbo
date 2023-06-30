@@ -248,16 +248,8 @@ You will need a compute Instance to connect to your brand new MySQL database.
 
 You may now **proceed to the next lab**
 
-## Learn More
-
-- [Cloud Shell](https://www.oracle.com/devops/cloud-shell/?source=:so:ch:or:awr::::Sc)
-- [Virtual Cloud Network](https://docs.oracle.com/en-us/iaas/Content/Network/Concepts/overview.htm)
-- [OCI Bastion Service ](https://docs.public.oneportal.content.oci.oraclecloud.com/en-us/iaas/Content/Bastion/Tasks/connectingtosessions.htm)
-
-
-
 ## Acknowledgements
 
-- **Author** - Perside Foster, MySQL Solution Engineering 
-- **Contributor** - Frédéric Descamps, MySQL Community Manager 
-- **Last Updated By/Date** - Perside Foster, February 2022
+- **Author** - Perside Foster, MySQL Principal Solution Engineering
+- **Contributors** - Mandy Pang, MySQL Principal Product Manager,  Nick Mader, MySQL Global Channel Enablement & Strategy Manager
+- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, June 2023

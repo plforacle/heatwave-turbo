@@ -164,8 +164,10 @@ In this lab, you will be guided through the following tasks:
 
 15. Save Workbook as "passenger Workbook" and close OAC application
 
+You may now **proceed to the next lab**
 
 ## Acknowledgements
-* **Author** - Perside Foster, MySQL Solution Engineering, Harsh Nayak, MySQL Solution Engineering, Selena Sánchez, MySQL Solutions Engineer 
-* **Contributors** - Salil Pradhan, MySQL Principal Product Manager,  Nick Mader, MySQL Global Channel Enablement & Strategy Manager
-* **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, March 2023
+
+- **Author** - Perside Foster, MySQL Principal Solution Engineering
+- **Contributors** - Mandy Pang, MySQL Principal Product Manager,  Nick Mader, MySQL Global Channel Enablement & Strategy Manager
+- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, June 2023

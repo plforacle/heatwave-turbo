@@ -249,12 +249,10 @@ In this lab, you will be guided through the following tasks:
 
     ![heatwave endpoint](./images/mysql-detail-active.png"heatwave endpoint")
 
-You may now **proceed to the next lab**.
+You may now **proceed to the next lab**
 
 ## Acknowledgements
 
-- **Author** - Perside Foster, MySQL Solution Engineering
-
-- **Contributors** - Mandy Pang, MySQL Principal Product Manager,  Priscila Galvao, MySQL Solution Engineering, Nick Mader, MySQL Global Channel Enablement & Strategy Manager, Frédéric Descamps, MySQL Community Manager
-
-- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, February 2022
+- **Author** - Perside Foster, MySQL Principal Solution Engineering
+- **Contributors** - Mandy Pang, MySQL Principal Product Manager,  Nick Mader, MySQL Global Channel Enablement & Strategy Manager
+- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, June 2023
