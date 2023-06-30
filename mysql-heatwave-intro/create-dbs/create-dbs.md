@@ -8,8 +8,6 @@ In this lab, you will create and configure a MySQL DB System.
 
 _Estimated Time:_ 15 minutes
 
-[//]:    [](youtube:Uz_PXHzO9ac)
-
 ### Objectives
 
 In this lab, you will be guided through the following tasks:
@@ -182,7 +180,7 @@ In this lab, you will be guided through the following tasks:
     <copy>MySQL HeatWave Database Instance</copy>
     ```
 
-    d. Select **HeatWave** to specify a HeatWave DB System
+    d. Select **Standalone** and enable **Configure MySQL HeatWave**
     ![heatwave db info setup](./images/mysql-create-info-setup.png "heatwave db info setup ")
 
 6. Create Administrator Credentials
