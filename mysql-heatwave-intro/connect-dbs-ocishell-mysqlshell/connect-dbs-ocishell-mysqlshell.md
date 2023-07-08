@@ -59,11 +59,13 @@ In this lab, you will be guided through the following tasks:
 
 ## Task 3: Install airportdb sample data
 
- The installation procedure involves downloading the airportdb database to a Compute instance and importing the data from the Compute instance into the MySQL DB System using the MySQL Shell Dump Loading utility. For information about this utility, see Dump Loading Utility.
+The installation procedure involves downloading the airportdb database to cloud shell and importing the data from cloud shell into the MySQL DB System using the MySQL Shell Dump Loading utility. For information about this utility, see Dump Loading Utility: [https://dev.mysql.com/doc/mysql-shell/8.0/en/mysql-shell-utilities-load-dump.htmly](https://dev.mysql.com/doc/mysql-shell/8.0/en/mysql-shell-utilities-load-dump.html)
 
  To install the airportdb database:
 
 1. Download the airportdb sample database and unpack it. The airportdb sample database is provided for download as a compressed tar or Zip archive. The download is approximately 640 MBs in size.
+
+
 
     a. Get sample file
 
@@ -79,9 +81,9 @@ In this lab, you will be guided through the following tasks:
 
    **Connect to MySQL Database Service**
 
-2. From your Compute instance, connect to HEATWAVE-DB  using the MySQL Shell client tool.
+2. From your cloud shell, connect to HEATWAVE-DB  using the MySQL Shell client tool.
 
-   The endpoint (IP Address) can be found in your notepad or  the MHEATWAVE-DB  System Details page, under the "Endpoint" "Private IP Address". 
+   The endpoint (IP Address) can be found in your notepad or  the HEATWAVE-DB  System Details page, under the "Endpoint" "Private IP Address". 
 
     ![mysql endpoint private ip](./images/mysql-endpoint-private-ip.png "mysql endpoint private ip")
 
@@ -99,13 +101,16 @@ In this lab, you will be guided through the following tasks:
 
 4. Load the airportdb database into the MySQL DB System using the MySQL Shell Dump Loading Utility.
 
+
    ```bash
     <copy>\js</copy>
     ```
 
     ```bash
-    <copy>util.loadDump("airportdb", {threads: 16, deferTableIndexes: "all", ignoreVersion: true})</copy>
+    <copy>util.loadDump("airportdb", {threads: 16, deferTableIndexes: "all", ignoreVersion: true, loadIndexes:false})</copy>
     ```
+
+    ![mysql util load dump](./images/mysql-util-load-dump.png "mysql util load dump ")
 
     ![mysql load data](./images/mysql-load-data.png "mysql load data ")
 

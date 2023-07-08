@@ -31,13 +31,16 @@ In this lab, you will be guided through the following tasks:
 2. Click  **Networking**, then **Virtual Cloud Networks**  
     ![menu vcn](./images/home-menu-networking-vcn.png "home menu networking vcn ")
 
-3. Click **Start VCN Wizard**
-    ![vcn wizard](./images/vcn-wizard-menu.png "vcn wizard ")
+    Select the root compartment
+    ![vcn wizard Select Root compartment](./images/vcn-menu-compartmen-root.png "vcn menu compartmen root ")
+
+3. Select the Click **Start VCN Wizard**
+    ![vcn start wizard](./images/vcn-wizard-menu.png "vcn wizard menu")
 
 4. Select 'Create VCN with Internet Connectivity'
 
     Click 'Start VCN Wizard'
-    ![start vcn wizard](./images/vcn-wizard-start.png "start vcn wizard ")
+    ![vcn wizard start create](./images/vcn-wizard-start.png "start vcn wizard start")
 
 5. Create a VCN with Internet Connectivity
 
@@ -105,11 +108,11 @@ In this lab, you will be guided through the following tasks:
 
 1. Navigation Menu > Networking > Virtual Cloud Networks
 
-2. Open heatwave-vcn
+2. Open HEATWAVE-VCN
 
-3. Click  public subnet-heatwave-vcn
+3. Click  public subnet-HEATWAVE-VCN
 
-4. Click Default Security List for heatwave-vcn
+4. Click Default Security List for HEATWAVE-VCN
 
 5. Click Add Ingress Rules page under Ingress Rule
 
@@ -135,7 +138,7 @@ In this lab, you will be guided through the following tasks:
 
     ![VCN](./images/vcn-ttp-add-ingress.png "Add HTTP Ingress Rule")
 
-7. On Security List for Default Security List for heatwave-vcn page, the new Ingress Rules will be shown under the Ingress Rules List
+7. On Security List for Default Security List for HEATWAVE-VCN page, the new Ingress Rules will be shown under the Ingress Rules List
 
     ![VCN](./images/vcn-ttp-ingress-completed.png"View VCN Completed HTTP Ingress rules")
 
