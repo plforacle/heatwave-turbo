@@ -24,17 +24,15 @@ In this lab, you will be guided through the following tasks:
 
 ## Task 1: Run Queries in HeatWave
 
-1. If not already connected with SSH, connect to Compute instance using Cloud Shell
+1. Connect via OCI Console mysql shell
 
-    (Example: **ssh -i ~/.ssh/id_rsa opc@132.145.170...**)
-
-2. On command Line, connect to MySQL using the MySQL Shell client tool with the following command:
+2. On command Line, use the following command:
 
     ```bash
     <copy>mysqlsh -uadmin -p -h 10.0.1... --sql </copy>
     ```
 
-3.	Change to the airport database
+3. Change to the airport database
 
     Enter the following command at the prompt
 
@@ -65,7 +63,7 @@ In this lab, you will be guided through the following tasks:
     LIMIT 10\G</copy>
     ```
 
-    ![heatwave qeury average age explain](./images/heatwave-qeury-average-age-explain.png "heatwave qeury average age explain")
+    ![heatwave qeury average age explain](./images/heatwave-qeury-explain.png "heatwave qeury average age explain")
 
 6. After verifying that the query can be offloaded, run the query and note the execution time. Enter the following command at the prompt:
 
@@ -117,7 +115,7 @@ In this lab, you will be guided through the following tasks:
         airline.airlinename, avg_age
     LIMIT 10;</copy>
     ```
-    
+
     ![query compare](./images/heatwave-qeury-avg.png " query compare")
 
 9. To see if `use_secondary_engine` is enabled (=ON)
@@ -168,7 +166,7 @@ In this lab, you will be guided through the following tasks:
     <copy>SET SESSION use_secondary_engine=OFF;</copy>
     ```
 
-    Run Query b again:
+    Run Query again:
 
     ```bash
     <copy> SELECT
