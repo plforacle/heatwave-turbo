@@ -1,8 +1,10 @@
-# Use Oracle Analytics Cloud with HeatWave
+# Build a real-time dashboard in Oracle Analytics Cloud with MySQL HeatWave
 
 ## Introduction
 
-MySQL HeatWave can easily be used for development tasks with existing Oracle services, such as Oracle Cloud Analytics.
+MySQL HeatWave can easily be used for development tasks with existing Oracle services, such as Oracle Cloud Analytics. -> Oracle Analytics Cloud (OAC) provides the industry’s most comprehensive cloud analytics in a single unified platform, including self-service visualization and inline data preparation to enterprise reporting, advanced analytics, and self-learning analytics that deliver proactive insights.
+
+Use MySQL HeatWave with OAC to explore and perform collaborative analytics with your MySQL data.
 
 _Estimated Lab Time:_ 20 minutes
 
@@ -49,13 +51,13 @@ In this lab, you will be guided through the following tasks:
 
     ![MDS](./images/config-oac.png "config-oac ")
 
-5. Wait 30 minutes for OAC instance creation to complete.
+5. It takes about 12-15 mins for OAC instance creation to complete.
 
     ![MDS](./images/created-oac.png " created-oac")
 
 ## Task 2: Configure Private Access Channel
 
-1. Go down to the resources page and click on the **Configure Private Access Channel**  button
+1. Go down to the “Private Access Channel” resources page and click on the **Configure Private Access Channel**  button.
 
 2. Click the create Private Access Channel button
 
@@ -82,14 +84,14 @@ In this lab, you will be guided through the following tasks:
 
     ![MDS](./images/config-pac-oac.png " config-pac-oac")
 
-5. Wait 30 minutes for the process to finish, then continue to Subtask 3
+5. Wait 30 minutes for the process to finish, then continue to Task 3
 ![MDS](./images/created-pac-oac.png " created-pac-oac")
 
 ## Task 3: Get HeatWave DB Hostname **
 
 1. Before starting go to Menu Databases > DB Systems
 
-2. Select HeatWave database: HW-DB
+2. Select HeatWave database: HeatWave-DB
 
 3. Go to Resources and click on the Endpoinst Link and  copy the Internal FQDN and save it to notepad
 
@@ -113,21 +115,24 @@ In this lab, you will be guided through the following tasks:
 
 4. Search for mysql and select mysql as the database
 
+    Example: **HEATWAVE-HW.sub0….heatwavevcn.oraclevcn.com**
+
     ![MDS](./images/add-connection-mysql.png "add-connection-mysql ")
 
 5. Specify the connections details
 
-    - Specify the hostname of HW-DB in FQDN such as mysql-xxx.oraclevpn.com
-
-    - be sure to use the oacadmin mysql user and password Welcome#123
+    - Specify the hostname of HEATWAVE-DB in FQDN from Task 4.
+    - Be sure to use mysql admin user name and password.
 
     ![MDS](./images/config-add-connection-mysql.png "config-add-connection-mysql ")
 
-6. Next build the dashboard on HeatWave by selecting Create->Data Set
-7. Select the MySQL Connection created earlier
+6. Select the MySQL Connection created earlier
+
+7. Double click "Manual Query" on the left panel and click ”Manual Query” tab on the bottom
+
     ![MDS](./images/manual-query-select.png "cmanual-query-select ")
 
-8. Double click "Manual Query" and add the following SQL query to find per-company average age of passengers from Switzerland, Italy and France. Click on the “Enter SQL and type in the following sql statement:
+8. Add the following SQL query (find per-company average age of passengers from Switzerland, Italy and France) in the statement text box, and select “Live” in Data Access on the right, then click OK on the top
 
     ```bash  
     <copy> SELECT
@@ -155,6 +160,7 @@ In this lab, you will be guided through the following tasks:
     ![MDS](./images/create-workbook-oac.png "create-workbook-oac")
 
 11. On new display page  click on the Dataset icon, select airline and nbrpeople
+    ![MDS](./images/passenger-column.png "passenger-column")
 12. Right click and select "Create Best Visualization".
     ![MDS](./images/best-visualization-oac.png "best-visualization-oac")
 

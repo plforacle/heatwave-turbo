@@ -32,15 +32,16 @@
               "title": "Lab 4: Run Queries in HeatWave and MySQL ",
               "filename": "../../run-queries/run-queries.md"
           },
-          
+        
           {
-            "title": "Lab 5: (Bonus) Run MySQL Autopilot",
-            "filename": "../../run-autopilot/run-autopilot.md"
-          },
+            "title": "Lab 5:  (Bonus) Build a real-time dashboard in Oracle Analytics Cloud with MySQL HeatWave",
+            "filename": "../../do-oac/do-oac.md"
+          }, 
+    
         
           {
             "title": "Lab 6: (Bonus) Create Compute Instance for LAMP Server",
-            "filename": "../../Create-compute/create-compute.md"
+            "filename": "../../create-compute/create-compute.md"
           },
              
           {
