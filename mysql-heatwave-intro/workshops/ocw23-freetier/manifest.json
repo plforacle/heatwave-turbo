@@ -40,14 +40,9 @@
     
         
           {
-            "title": "Lab 6: (Bonus) Create Compute Instance for LAMP Server",
-            "filename": "../../create-compute/create-compute.md"
+            "title": "Lab 6: (Bonus) Build a LAMP application with MySQL HeatWave",
+            "filename": "../../create-lamp/create-lamp.md"
           },
-             
-          {
-            "title": "Lab 7: (Bonus) Use MySQL HeatWave For Development",
-            "filename": "../../develop/develop.md"
-          }, 
 
           {
               "title": "Need Help?",

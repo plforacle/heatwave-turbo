@@ -1,4 +1,4 @@
-# Use MySQL HeatWave For Development  
+# Build a LAMP application with MySQL HeatWave  
 
 ## Introduction
 
