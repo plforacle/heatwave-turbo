@@ -57,7 +57,7 @@ In this lab, you will be guided through the following task:
 ## Task 2: Load airportdb Data into HeatWave Cluster
 
 1. Connect to OCI Cloud Shell
-    ![mysql shell start](./images/cloudshell-console-drawer.png "cloudshell console drawer")
+    ![mysql shell open drawer](./images/cloudshell-console-drawer.png "cloudshell console drawer")
 
 2. On command Line, connect to the HeatWave Database using the MySQL Shell client tool with the following command:
 
@@ -84,7 +84,8 @@ In this lab, you will be guided through the following task:
     - b. **Capacity estimation box:** showis estimated memory and load time
     - c. **Loading table boxes:** use different thread to load based on the table
     - d. **Load summary box:** shows the actual load time
-    - ![mysql heatwave load features](./images/mysql-heatwave-load-features.png "mysql heatwave load featurescomplete ")
+    - ![mysql heatwave load features](./images/mysql-heatwave-load-features.png "mysql heatwave load features complete ")
+
     - ![mysql heatwave autopilot loadtable](./images/mysql-heatwave-autopilot-loadtable.png "mysql heatwave autopilot loadtable")
 
 6. Verify that the tables are loaded in the HeatWave cluster. Loaded tables have an AVAIL_RPDGSTABSTATE load status.
@@ -112,4 +113,4 @@ You may now **proceed to the next lab**
 
 - **Author** - Perside Foster, MySQL Principal Solution Engineering
 - **Contributors** - Mandy Pang, MySQL Principal Product Manager,  Nick Mader, MySQL Global Channel Enablement & Strategy Manager
-- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, June 2023
+- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, July 2023

@@ -70,10 +70,10 @@ In this lab, you will be guided through the following tasks:
 ## Task 2: Configure security list to allow MySQL incoming connections
 
 1. On HEATWAVE-VCN page under 'Subnets in (root) Compartment', click  '**Private Subnet-HEATWAVE-VCN**'
-     ![vcn subnet](./images/vcn-details-subnet.png "vcn detqails subnet")
+     ![vcn subnet](./images/vcn-details-subnet.png "vcn details subnet")
 
 2. On Private Subnet-HEATWAVE-VCN page under 'Security Lists',  click  '**Security List for Private Subnet-HEATWAVE-VCN**'
-    ![VCN](./images/vcn-private-security-list.png "vcn private security list")
+    ![vcn private security list](./images/vcn-private-security-list.png "vcn private security list")
 
 3. On Security List for Private Subnet-HEATWAVE-VCN page under 'Ingress Rules', click '**Add Ingress Rules**'
     ![vcn private subnet](./images/vcn-private-security-list-ingress.png "vcn private security list ingress")
@@ -136,11 +136,11 @@ In this lab, you will be guided through the following tasks:
 
 6. Click 'Add Ingress Rule'
 
-    ![VCN](./images/vcn-ttp-add-ingress.png "Add HTTP Ingress Rule")
+    ![Add HTTP Ingress Rule](./images/vcn-ttp-add-ingress.png "Add HTTP Ingress Rule")
 
 7. On Security List for Default Security List for HEATWAVE-VCN page, the new Ingress Rules will be shown under the Ingress Rules List
 
-    ![VCN](./images/vcn-ttp-ingress-completed.png"View VCN Completed HTTP Ingress rules")
+    ![View VCN Completed HTTP Ingress rules](./images/vcn-ttp-ingress-completed.png "View VCN Completed HTTP Ingress rules")
 
 ## Task 4: Create MySQL Database for HeatWave (DB System) instance
 
@@ -216,7 +216,7 @@ In this lab, you will be guided through the following tasks:
     <copy>1024</copy>
     ```
 
-    ![heatwave db  hardware](./images/mysql-create-db-hardware.png"heatwave db hardware ")
+    ![heatwave db  hardware](./images/mysql-create-db-hardware.png "heatwave db hardware ")
 
 9. On Configure Backups, disable 'Enable Automatic Backup'
 
@@ -242,13 +242,13 @@ In this lab, you will be guided through the following tasks:
 13. The New MySQL DB System will be ready to use after a few minutes
 
     The state will be shown as 'Creating' during the creation
-    ![show creeation state](./images/mysql-create-in-progress.png"show creeation state")
+    ![show creeation state](./images/mysql-create-in-progress.png "show creeation state")
 
 14. The state 'Active' indicates that the DB System is ready for use
 
     On HEATWAVE-HW Page, check the MySQL Endpoint (Private IP Address)
 
-    ![heatwave endpoint](./images/mysql-detail-active.png"heatwave endpoint")
+    ![heatwave endpoint](./images/mysql-detail-active.png "heatwave endpoint")
 
 You may now **proceed to the next lab**
 
@@ -256,4 +256,4 @@ You may now **proceed to the next lab**
 
 - **Author** - Perside Foster, MySQL Principal Solution Engineering
 - **Contributors** - Mandy Pang, MySQL Principal Product Manager,  Nick Mader, MySQL Global Channel Enablement & Strategy Manager
-- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, June 2023
+- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, July 2023

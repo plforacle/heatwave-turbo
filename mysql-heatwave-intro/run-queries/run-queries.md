@@ -138,7 +138,7 @@ In this lab, you will be guided through the following tasks:
     <copy>SET SESSION use_secondary_engine=ON;</copy>
     ```
 
-12. **Query 2** -  Find top 10 companies selling the biggest amount of tickets for planes taking off from US airports.	Run Pricing Summary Report Query:
+12. **Query 2** -  Find top 10 companies selling the biggest amount of tickets for planes taking off from US airports. Run Pricing Summary Report Query:
 
     ```bash
     <copy> SELECT
@@ -253,4 +253,4 @@ You may now **proceed to the next lab**
 
 - **Author** - Perside Foster, MySQL Principal Solution Engineering
 - **Contributors** - Mandy Pang, MySQL Principal Product Manager,  Nick Mader, MySQL Global Channel Enablement & Strategy Manager
-- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, June 2023
+- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, July 2023
