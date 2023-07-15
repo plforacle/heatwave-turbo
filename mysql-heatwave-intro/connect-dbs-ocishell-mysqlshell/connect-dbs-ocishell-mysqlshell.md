@@ -101,7 +101,6 @@ The installation procedure involves downloading the airportdb database to cloud 
 
 4. Load the airportdb database into the MySQL DB System using the MySQL Shell Dump Loading Utility.
 
-
    ```bash
     <copy>\js</copy>
     ```
