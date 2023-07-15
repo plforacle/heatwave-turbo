@@ -1,5 +1,7 @@
 # Build a real-time dashboard in Oracle Analytics Cloud with MySQL HeatWave
 
+![mysql heatwave](./images/mysql-heatwave-logo.jpg "mysql heatwave")
+
 ## Introduction
 
 MySQL HeatWave can easily be used for development tasks with existing Oracle services, such as Oracle Cloud Analytics. -> Oracle Analytics Cloud (OAC) provides the industry’s most comprehensive cloud analytics in a single unified platform, including self-service visualization and inline data preparation to enterprise reporting, advanced analytics, and self-learning analytics that deliver proactive insights.
