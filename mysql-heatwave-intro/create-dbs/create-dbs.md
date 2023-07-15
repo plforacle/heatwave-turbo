@@ -227,7 +227,7 @@ In this lab, you will be guided through the following tasks:
 11. Go to the Networking tab, in the Hostname field enter (same as DB System Name):
 
     ```bash
-        <copy>HEATWAVE-HW</copy> 
+        <copy>HEATWAVE-DB</copy> 
     ```  
 
     ![heatwave db advanced](./images/mysql-create-advanced.png "heatwave db advanced ")
