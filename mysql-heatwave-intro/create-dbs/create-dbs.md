@@ -208,13 +208,9 @@ In this lab, you will be guided through the following tasks:
 
     ![heatwave db network ad](./images/mysql-create-network-ad.png "heatwave db network ad ")
 
-8. On Configure hardware, keep default shape as **MySQL.HeatWave.VM.Standard**
-
-    Data Storage Size (GB) Set value to:  **1024**
-
-    ```bash
-    <copy>1024</copy>
-    ```
+8. On Configure hardware
+    - a. Click the **Change shape** button to select the **MySQL.HeatWave.VM.Standard** shape.
+    - b. For Data Storage Size (GB) Set value to:  **1024**
 
     ![heatwave db  hardware](./images/mysql-create-db-hardware.png "heatwave db hardware ")
 
