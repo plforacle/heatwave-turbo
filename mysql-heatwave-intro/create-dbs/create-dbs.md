@@ -12,6 +12,7 @@ _Estimated Time:_ 15 minutes
 
 In this lab, you will be guided through the following tasks:
 
+- Create Compartment
 - Create Virtual Cloud Network
 - Create MySQL HeatWave (DB System) Instance
 
@@ -20,7 +21,31 @@ In this lab, you will be guided through the following tasks:
 - An Oracle Trial or Paid Cloud Account
 - Some Experience with MySQL Shell
 
-## Task 1: Create Virtual Cloud Network
+## Task 1: Create Compartment
+
+1. Click the **Navigation Menu** in the upper left, navigate to **Identity & Security** and select **Compartments**.
+
+2. On the Compartments page, click **Create Compartment**.
+
+3. In the Create Compartment dialog box, complete the following fields:
+
+    Name:
+
+    ```bash
+    <copy>turbo</copy>
+    ```
+
+    Description:
+
+    ```bash
+    <copy>Compartment for Turbocharge Business Insights with MySQL Database workshop </copy>
+    ```
+
+4. The **Parent Compartment** should be **turbo** and click **Create Compartment**
+    ![VCN](./images/compartment-create.png "create the compartment")
+
+
+## Task 2: Create Virtual Cloud Network
 
 1. You should be signed in to Oracle Cloud!
 
@@ -31,8 +56,8 @@ In this lab, you will be guided through the following tasks:
 2. Click  **Networking**, then **Virtual Cloud Networks**  
     ![menu vcn](./images/home-menu-networking-vcn.png "home menu networking vcn ")
 
-    Select the root compartment
-    ![vcn wizard Select Root compartment](./images/vcn-menu-compartmen-root.png "vcn menu compartmen root ")
+    Select the **turbo** compartment
+    ![vcn wizard Select Turbo compartment](./images/vcn-menu-compartmen-root.png "vcn menu compartmen turbo ")
 
 3. Select the Click **Start VCN Wizard**
     ![vcn start wizard](./images/vcn-wizard-menu.png "vcn wizard menu")
@@ -52,7 +77,7 @@ In this lab, you will be guided through the following tasks:
     <copy>HEATWAVE-VCN</copy>
     ```
 
-    Compartment: Select  **(root)**
+    Compartment: Select  **turbo**
 
     Your screen should look similar to the following
     ![select compartment](./images/vcn-wizard-compartment.png "select compartment")
@@ -67,9 +92,9 @@ In this lab, you will be guided through the following tasks:
 8. When the Virtual Cloud Network creation completes, click 'View Virtual Cloud Network' to display the created VCN
     ![vcn creation completing](./images/vcn-wizard-view.png "vcn creation completing")
 
-## Task 2: Configure security list to allow MySQL incoming connections
+## Task 3: Configure security list to allow MySQL incoming connections
 
-1. On HEATWAVE-VCN page under 'Subnets in (root) Compartment', click  '**Private Subnet-HEATWAVE-VCN**'
+1. On HEATWAVE-VCN page under 'Subnets in **turbo** Compartment', click  '**Private Subnet-HEATWAVE-VCN**'
      ![vcn subnet](./images/vcn-details-subnet.png "vcn details subnet")
 
 2. On Private Subnet-HEATWAVE-VCN page under 'Security Lists',  click  '**Security List for Private Subnet-HEATWAVE-VCN**'
@@ -104,7 +129,7 @@ In this lab, you will be guided through the following tasks:
 5. On Security List for Private Subnet-HEATWAVE-VCN page, the new Ingress Rules will be shown under the Ingress Rules List
     ![show ingres rule](./images/vcn-private-security-list-ingress-display.png "vcn private security list ingress display")
 
-## Task 3: Configure security list to allow HTTP incoming connections
+## Task 4: Configure security list to allow HTTP incoming connections
 
 1. Navigation Menu > Networking > Virtual Cloud Networks
 
@@ -142,7 +167,7 @@ In this lab, you will be guided through the following tasks:
 
     ![View VCN Completed HTTP Ingress rules](./images/vcn-ttp-ingress-completed.png "View VCN Completed HTTP Ingress rules")
 
-## Task 4: Create MySQL Database for HeatWave (DB System) instance
+## Task 5: Create MySQL Database for HeatWave (DB System) instance
 
 1. Click on Navigation Menu
          Databases
@@ -169,7 +194,7 @@ In this lab, you will be guided through the following tasks:
 
 5. Provide basic information for the DB System:
 
-    a. Select Compartment **(root)**
+    a. Select Compartment **turbo**
 
     b. Enter Name
 
