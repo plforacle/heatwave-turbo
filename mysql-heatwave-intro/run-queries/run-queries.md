@@ -238,10 +238,6 @@ In this lab, you will be guided through the following tasks:
     <copy>SET SESSION use_secondary_engine=ON;</copy>
     ```
 
-16. The final results should look like the following:
-
-    ![final result](./images/final-result.png "final result ")
-
 ## Learn More
 
 - [Oracle Cloud Infrastructure MySQL Database Service Documentation ](https://docs.cloud.oracle.com/en-us/iaas/MySQL-database)
