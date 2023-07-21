@@ -43,6 +43,11 @@
             "title": "Lab 6: (Bonus) Build a LAMP application with MySQL HeatWave",
             "filename": "../../create-lamp/create-lamp.md"
           },
+        
+          {
+            "title": "Lab7: Stop OCI Services",
+            "filename": "../../stop-services/stop-services.md"
+          },
 
           {
               "title": "Need Help?",

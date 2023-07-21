@@ -31,8 +31,6 @@ _Lab Setup
 
 ![heatwave architecture](./images/heatwave-bastion-architecture-compute.png "heatwave bastion -architecture compute ")
 
-[//]:    [](youtube:6nsgwclsnaM)
-
 ## Objectives
 
 In this lab, you will be guided through the following steps:

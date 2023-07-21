@@ -469,7 +469,7 @@ You will need a compute Instance to connect to your brand new MySQL database.
     Example: http://129.213.167..../mydbchart.php
     ![mydbchart out](./images/mydbchart-out.png "mydbchart out ")
 
-**Congratulations!  You have successfully finished the Workshop.**
+You may now **proceed to the next lab**
 
 ## Acknowledgements
 
