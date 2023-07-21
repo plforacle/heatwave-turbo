@@ -10,8 +10,6 @@ A HeatWave cluster comprise of a MySQL DB System node and one or more HeatWave n
 
 _Estimated Time:_ 10 minutes
 
-[//]:    [](youtube:OzqCt3XATto)
-
 ### Objectives
 
 In this lab, you will be guided through the following task:
@@ -31,7 +29,7 @@ In this lab, you will be guided through the following task:
     - Databases
     - MySQL
     - DB Systems
-2. Choose the root Compartment. A list of DB Systems is displayed.
+2. Choose the **turbo** Compartment. A list of DB Systems is displayed.
     ![navigation mysql with instance](./images/navigation-mysql-with-instance.png "navigation mysql with instance")
 
 3. In the list of DB Systems, click the **HEATWAVE-DB** system. click **More Action ->  Add HeatWave Cluster**.
