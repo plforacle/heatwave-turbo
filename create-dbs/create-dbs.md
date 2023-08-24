@@ -57,7 +57,7 @@ In this lab, you will be guided through the following tasks:
     ![menu vcn](./images/home-menu-networking-vcn.png "home menu networking vcn ")
 
     Select the **turbo** compartment
-    ![vcn wizard Select Turbo compartment](./images/vcn-menu-compartmen-root.png "vcn menu compartmen turbo ")
+    ![vcn wizard Select Turbo compartment](./images/vcn-menu-compartmen-turbo.png "vcn menu compartmen turbo ")
 
 3. Select the Click **Start VCN Wizard**
     ![vcn start wizard](./images/vcn-wizard-menu.png "vcn wizard menu")
@@ -267,9 +267,11 @@ In this lab, you will be guided through the following tasks:
 
 14. The state 'Active' indicates that the DB System is ready for use
 
-    On HEATWAVE-HW Page, check the MySQL Endpoint (Private IP Address)
+    ![show active state](./images/mysql-detail-active.png "show active state")
 
-    ![heatwave endpoint](./images/mysql-detail-active.png "heatwave endpoint")
+15. On HEATWAVE-HW Page, select the **Connections** tab and save the MySQL Endpoint (Private IP Address) to use later.
+
+    ![heatwave endpoint](./images/mysql-detail-endpoint.png "heatwave endpoint")
 
 You may now **proceed to the next lab**
 

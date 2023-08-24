@@ -31,11 +31,11 @@ In this lab, you will be guided through the following tasks:
 ## Task 2: Create Object Storage bucket
 
 1. Sign in to OCI using your tenant name, user name and password.
-2. Once signed in select the **root** compartment
+2. Once signed in select the **turbo** compartment
 3. From the Console navigation menu, click **Storage**.
 4. Under Object Storage, click Buckets
 
-    **NOTE:** Ensure the correct Compartment is selected : Select **root**
+    **NOTE:** Ensure the correct Compartment is selected : Select **turbo**
 
     ![cloud storage bucket](./images/cloud-storage-bucket.png "cloud-storage-bucket")
 

@@ -1,5 +1,5 @@
 {
-    "workshoptitle": "Turbocharge Business Insight with MySQL HeatWave - Basic",
+  "workshoptitle": "Turbocharge Business Insight with MySQL HeatWave - Oracle HOL",
       "help": "livelabs-help-oci_us@oracle.com",
       "tutorials": [
           {
@@ -34,18 +34,38 @@
           },
         
           {
-            "title": "Lab 5:  (Bonus) Build a real-time dashboard in Oracle Analytics Cloud with MySQL HeatWave",
+            "title": "Lab 5: Build a real-time dashboard in Oracle Analytics Cloud with MySQL HeatWave",
             "filename": "../../do-oac/do-oac.md"
           }, 
     
         
           {
-            "title": "Lab 6: (Bonus) Build a LAMP application with MySQL HeatWave",
-            "filename": "../../create-lamp/create-lamp.md"
+            "title": "Lab 6: Do HeatWave Machine Learning",
+            "filename": "../../do-heatwave-ml/do-heatwave-ml.md"
+          }, 
+
+          {
+            "title": "Lab 7: Do HeatWave Lakehouse",
+            "filename": "../../do-lakehouse/do-lakehouse.md"  
           },
+
+          {
+            "title": "Lab 8: Build a LAMP application with MySQL HeatWave",
+            "filename": "../../create-lamp-advanced/create-lamp-advanced.md"
+          },
+            
+          {
+            "title": "Lab 9: (Bonus) Build a real-time dashboard in Oracle Analytics Cloud with MySQL HeatWave",
+            "filename": "../../do-oac-advanced/do-oac-advanced.md"
+          }, 
+          
+          {
+            "title": "Lab 10: (Bonus)  Develop MySQL HeatWave Apps with Oracle APEX",
+            "filename": "../../apex-heatwave/apex-heatwave.md"
+          }, 
         
           {
-            "title": "Lab7: Stop OCI Services",
+            "title": "Lab11: Stop OCI Services",
             "filename": "../../stop-services/stop-services.md"
           },
 
