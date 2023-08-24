@@ -269,7 +269,7 @@ In this lab, you will be guided through the following tasks:
 
     ![show active state](./images/mysql-detail-active.png "show active state")
 
-15. On HEATWAVE-HW Page, select the **Connections** tab and save the MySQL Endpoint (Private IP Address) to use later.
+15. On HEATWAVE-HW Page, select the **Connections** tab and save the MySQL Endpoint (Private IP Address) to notepad for use later.
 
     ![heatwave endpoint](./images/mysql-detail-endpoint.png "heatwave endpoint")
 
