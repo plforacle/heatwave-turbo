@@ -21,14 +21,16 @@ In this lab, you will be guided through the following tasks:
 
 - An Oracle Trial or Paid Cloud Account
 - Some Experience with MySQL Shell
-- Completed Lab 5
+- Completed Lab 4
 
 ## Task 1:  Create an Oracle Analytic Cloud Service
 
 1. From the OCI console, navigate to Analytics & AI-> Analytics Clouds
- ![analytics menu](./images/analytics-menu.png " analytics menu")
 
-2. Click Create Instance
+ ![analytics menu](./images/analytics-menu.png " analytics menu")
+ 
+
+2. Select the **turbo** Compartment and Click the **Create Instance** button
  ![create-instance-oac](./images/create-instance-oac.png "create-instance-oac ")
 
 3. On the Create Analytics Instance enter the required information as shown below
@@ -81,10 +83,11 @@ In this lab, you will be guided through the following tasks:
     ```
 
     **Remove second  DNS Zone entry**
-
-4. Click the **Create** button
-
     ![configure private access for oac](./images/config-pac-oac.png " config-pac-oac")
+    
+4. Click the **Config** button
+
+
 
 5. Wait 30 minutes for the process to finish, then continue to Task 3
     ![oac private access created  ](./images/created-pac-oac.png " created-pac-oac")
