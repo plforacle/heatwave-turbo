@@ -141,57 +141,47 @@ In this lab, you will be guided through the following tasks:
 7. The completed connection will display  a "New Dataset" page. Click on the "Schemas" link and select the "airportdb" schema
 
     ![open schema](./images/open-schema.png "open schema ")
-8. Double click the "passenger_survey" table. In a few seconds it will display all of the table columns. Click the "Save" icon to display the "Save Dataset As" dialog box and set the name and escription to "passenger-survey", and click the "OK" button
+8. Double click the "passenger\_survey" table. In a few seconds it will display all of the table columns. 
+
+    - Click the "Save" icon to display the "Save Dataset As" dialog box 
+    - Set the name and description to "passenge\_survey"
+    - click the "OK" button
 
     ![save schema dataset](./images/schema-dataset.png "save schema dataset ")
 
-8. Add the following SQL query (find per-company average age of passengers from Switzerland, Italy and France) in the statement text box, and select “Live” in Data Access on the right, then click OK on the top
+9. Click the "Create workbook" button
+    ![create oac workbook](./images/create-workbook-schema.png "create-workbook-oac")
 
-    ```bash  
-    <copy> SELECT
-        airline.airlinename,
-        AVG(datediff(departure,birthdate)/365.25) as avg_age,
-        count(*) as nbpeople
-    FROM
-        booking, flight, airline, passengerdetails
-    WHERE
-        booking.flight_id=flight.flight_id AND
-        airline.airline_id=flight.airline_id AND
-        booking.passenger_id=passengerdetails.passenger_id AND
-        country IN ("SWITZERLAND", "FRANCE", "ITALY")
-    GROUP BY
-        airline.airlinename
-    ORDER BY
-        airline.airlinename, avg_age
-    LIMIT 10;</copy>
-    ```
+10. We are only interested in values that can be improved through the booking process. So we will create pie charts to visualize the Satifaction level the following  Services or Results
+    - Ease\_of\_Online\_booking and satisfaction\_2
+    - Departure\_Arrival\_time\_convenient and satisfaction\_2
+    - Departure\_Delay\_in\_Minutes and satisfaction\_2
+    - Arrival\_Delay\_in\_Minutes and satisfaction\_2
 
-9. Dataset screen
-    ![set oac dataset](./images/new-data-set-oac.png "new-data-set-oac ")
+11. Ease_of\_Online\_booking and satisfaction\_2
 
-10. Click the  save button and set the DataSet name to Passengers then click Create workbook button
-    ![create oac workbook](./images/create-workbook-oac.png "create-workbook-oac")
+    - Click on the satifaction\_v2 value and the Ease_of\_Online\_booking
+    - Right click on the Ease_of\_Online\_booking selection anc click "Pick Visualization" option
+    - Click on the Pie chart and you will display
+    ![online bookingsatisfaction](./images/chart-online-booking-satisfaction.png "online bookingsatisfaction")
 
-11. On new display page  click on the Dataset icon, select airline and nbrpeople
-    ![select columns](./images/passenger-column.png "passenger-column")
-12. Right click and select "Create Best Visualization".
-    ![auto visualization](./images/best-visualization-oac.png "best-visualization-oac")
+12. Do the activities in Step 11  for the remaining 3 Data points
 
-13. Click on the bottom + sign to add Canvas 2 , select airline and avg_age
-14. Right click and select "Pick Visualization" and select pie chart.
-    ![manual visualization](./images/pick-visualization-oac.png "pick-visualization-oac ")
+    - Departure\_Arrival\_time\_convenient and satisfaction\_2
+    - Departure\_Delay\_in\_Minutes and satisfaction\_2
+    - Arrival\_Delay\_in\_Minutes and satisfaction\_2
 
-15. Save Workbook as "passenger Workbook" and close OAC application
+    Your fianl dashboard should look like this:
 
+    ![satisfaction dashboard](./images/satisfaction-dashboard.png "satisfaction dashboard")
 
+13. Save the workbook as "passenger\_satisfaction".
+14. Let's review our charts and determine how they can be used in the booking application to improve customer satisfaction
+    - a. Ease of Online booking Satisfaction Level is greater 60% - they're happy let's leave it alone.
+    - b. Departure Arrival time convenient - Satisfaction Level is greater 50% let's leave it alone.
+    - c. The customer's are very disatisfied with  Departure and Arrival Delays. How can we fix this problem with the booking application.
 
-16. Add chart to OAC using the following query
-
-    ```bash
-    <copy>SELECT satisfaction,customer_type, travel_type, AVG(departure_delay) departure_delay,count(*) as nb_psgr
-    FROM airportdb.passenger_survey
-    group by customer_type,travel_type,satisfaction;</copy>
-    ```
+15. What if we could get data on airline routes and their delays... and what if we cauld find a way to predict fligt delays before the customer made their reservation and provide this information so they could choose flights with less delays? Lab 7 can help make it happen! 
 
 You may now **proceed to the next lab**
 
@@ -199,4 +189,4 @@ You may now **proceed to the next lab**
 
 - **Author** - Perside Foster, MySQL Principal Solution Engineering
 - **Contributors** - Mandy Pang, MySQL Principal Product Manager,  Nick Mader, MySQL Global Channel Enablement & Strategy Manager
-- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, July 2023
+- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, August 2023
