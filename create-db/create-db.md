@@ -245,7 +245,7 @@ In this lab, you will be guided through the following tasks:
 
 10. Click on Show Advanced Options
 
-11. Go to the Networking tab, in the Hostname field enter (same as DB System Name):
+11. Go to the Connections tab, in the Hostname field enter (same as DB System Name):
 
     ```bash
         <copy>HEATWAVE-DB</copy> 
@@ -279,4 +279,4 @@ You may now **proceed to the next lab**
 
 - **Author** - Perside Foster, MySQL Principal Solution Engineering
 - **Contributors** - Mandy Pang, MySQL Principal Product Manager,  Nick Mader, MySQL Global Channel Enablement & Strategy Manager
-- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, July 2023
+- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, August 2023

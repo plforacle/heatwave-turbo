@@ -49,7 +49,9 @@ In this lab, you will be guided through the following tasks:
 
     Capacity: select **OCPU** and select **1**
 
-    License Type: select **License Included**
+    License and Edition: 
+    - select **License Included**
+    - select **Enterprise Edition**
 
 4. Click the **Create** button
 

@@ -15,7 +15,7 @@
      
           {
               "title": "Lab 1: Create HeatWave Database System",
-              "filename": "../../create-dbs/create-dbs.md"
+              "filename": "../../create-db/create-db.md"
           },
   
           {
@@ -60,7 +60,7 @@
           }, 
         
           {
-            "title": "Lab10: Stop OCI Services",
+            "title": "Lab 10: Stop OCI Services",
             "filename": "../../stop-services/stop-services.md"
           },
 

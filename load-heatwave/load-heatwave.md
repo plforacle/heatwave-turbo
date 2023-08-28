@@ -35,14 +35,22 @@ In this lab, you will be guided through the following task:
 3. In the list of DB Systems, click the **HEATWAVE-DB** system. click **More Action ->  Add HeatWave Cluster**.
     ![mysql more actions add cluster](./images/mysql-more-actions-add-cluster.png " mysql more actions add cluster")
 
-4. On the “Add HeatWave Cluster” dialog, select “HeatWave.512GB” shape
-5. Click “Estimate Node Count” button
+4. On the “Add HeatWave Cluster” dialog, select the “HeatWave.512GB” shape
+
+5. Click the “Estimate Node Count” button
     ![mysql cluster estimate node](./images/mysql-cluster-estimate-node.png "mysql cluster estimate node ")
 
-6. On the “Estimate Node Count” page, click “Generate Estimate”. This will trigger the auto provisioning advisor to sample the data stored in MySQL InnoDB and predict the number of HeatWave nodes needed.
+6. Click the “Generate estimate” button. This operation may take several minutes.
     ![mysql estimate node](./images/mysql-estimate-node.png "mysql estimate node ")
 
-7. Once the estimations are calculated, it shows list of database schemas in MySQL node. If you expand the schema and select different tables, you will see the estimated memory required in the Summary box, There is a Load Command (heatwave_load) generated in the text box window, which will change based on the selection of databases/tables
+7. When the operation completes, you get a response that contains the following details:
+
+    - Name: Specify the name of the schema
+    - Memory Size Estimate: Specify the estimated amount of memory required for the schema.
+    - Information: Specify the number of tables in the schema and the number of tables with errors
+
+    ![mysql estimate node](./images/mysql-generate-estimate.png "mysql estimate node ")
+
 8. Select the airportdb schema and click “Apply Node Count Estimate” to apply the node count
     ![apply node](./images/mysql-apply-node.png "apply node")
 
