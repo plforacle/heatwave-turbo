@@ -8,7 +8,7 @@ MySQL HeatWave is a fully managed database service with an integrated query acce
 
 MySQL HeatWave eliminates the need for complex ETL operations to move data out of MySQL to run analytics or machine learning. Existing MySQL applications can run on MySQL HeatWave without any change and get orders of magnitude better query performance with the built-in query accelerator. With MySQL HeatWave, organizations can also run analytics on hundreds of terabytes of data in object store in a variety of file formats like CSV, Parquet, export files from Aurora or Redshift, without requiring data to be stored inside MySQL.
 
-In this workshop, you will learn how to create a MySQL HeatWave Cluster, connect to the cluster using MySQL Shell, run queries on HeatWave, run Analytics workloads in Oracle Cloud, and create a LAMP application.
+In this workshop, you will learn how to create a MySQL HeatWave Cluster, connect to the cluster using MySQL Shell, run queries on HeatWave, run Analytics workloads in Oracle Cloud, Use Oracle Analytics Cloud and Lakehouse, Machine Learning, and create a LAMP application.
 
 Overall this workshop will show you how easy it is to create and manage MySQL HeatWave and how MySQL HeatWave enables you to make informed business-critical decisions with real-time insights.
 
@@ -34,19 +34,16 @@ _Lab Setup
 
 ## Objectives
 
-In this lab, you will be guided through the following steps:
+In this lab, you will use HeatWave services to improve Customer Satifaction by completing the following labs:
 
-- Create SSH Key on Oracle Cloud Infrastructure Cloud Shell
-- Create MySQL Database for HeatWave (DB System) instance 
-- Setup Compute instance
-- Connect to DB System using MySQL Shell through Compute Instance / Cloud Shell and add sample data (airportdb)
-- Add HeatWave cluster to DB System
-- Load sample data to HeatWave Cluster
-- Run queries in HeatWave and MySQL and see the performance improvement in HeatWave!
-- Run MySQL Autopilot to get performance improvement suggestions
-- Run queries again in HeatWave and see the improvement!
-- Create Lamp test application
-- Use Oracle Anayltics Cloud
+1. Create HeatWave Database System
+2. Connect to HeatWave With Cloud Shell
+3. Setup HeatWave Cluster for OLAP/AutoML/Lakeshouse
+4. Run Query Comparissons Between MySQL and HeatWave Cluster
+5. Upload the Semi structured data to Object Storage and HeatWave Lakehouse
+6. Analyze Customer Satisfaction data with Oracle Analitic Cloud and Lakehouse
+7. Use HeatWave AutoML to predict future actions 
+8. Build a LAMP applications with MySQL HeatWave and AUtoML to help customers make better choices 
 
 ## Prerequisites
 
