@@ -100,19 +100,19 @@ In this lab, you will be guided through the following tasks:
 
 2. Select HeatWave database: HeatWave-DB
 
-3. Go to Resources and click on the Endpoinst Link and  copy the Internal FQDN and save it to notepad
+3. Click on the "Connections" tab on the Endpoinst > Internal FQDN > Click on the Copy link.
 
     ![database endpoint](./images/hw-db-endpoint.png "hw-db-endpoint ")
 
-4. Save the Hostname for use with OAC
+4. Save the Hostname, in notepad, for use with OAC
 
     Example : **hwdb.sub09012.....hwvcn.oraclevcn.com**
 
-## Task 4: - Build OAC Dashboard**
+## Task 4: - Use OAC to Analyze the Lakehouse passenger-survey data**
 
 1. Navigate to hamburger->Analytics->Analytics Clouds
 
-2. Select the OAC instance you provisioned to access the OAC console by clicking on Analytics Home Page
+2. Select the OAC instance you provisioned to access the OAC console by clicking on Analytics Home Page. Click on the "Anlytics Home Page" button.
 
     ![analytics go home page](./images/analytics-go-home-page.png "analytics-go-home-page ")
 

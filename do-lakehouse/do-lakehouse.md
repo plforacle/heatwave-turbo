@@ -24,10 +24,11 @@ In this lab, you will be guided through the following tasks:
 
 ## Task 1: Download survey file to your local machine
 
-1. From Windows,linux, or mac Local machine click  this  link to download the sample file to your local machine
+1. From Windows,linux, or mac Local machine click  this  link to download the data file to your local machine
 
-    [airline\_passenger\_satisfaction.csv:](https://objectstorage.us-ashburn-1.oraclecloud.com/p/aiWCG75BKt3kjlZ6_R-JUoXG1gdzk1uhetAXXBrmvBaDLDYpsLIOl28ZYEyQTUY3/n/mysqlpm/b/mysql_airport/o/airline_passenger_satisfaction.csv
-) 
+   **Download Passenger survey data file [satisfaction\_data.csv](https://objectstorage.us-ashburn-1.oraclecloud.com/p/_2FkbussY40f4mGzsN9IqdYhhrMQU66hRDlr2XGtfocoUUTyjs0xFc-EqKfP7bQJ/n/mysqlpm/b/mysql_airport/o/satisfaction_data.csv)**
+
+2. Save the file on your local machine. Make sure that the file is saved with extension `.csv`.
 
 ## Task 2: Create Object Storage bucket
 
@@ -52,22 +53,22 @@ In this lab, you will be guided through the following tasks:
 1. In the Buckets page, click the **passenger-survey** name to load images into. The bucket's details page is displayed.
 2. Under Resources, click Objects to display the list of objects in the bucket.
 3. Click Upload. The Upload Objects pane is displayed.
-4. Select the "airline\_passenger\_satisfaction.csv" file from the local folder
-    - Click open to load the "airline\_passenger\_satisfaction.csv"  file
+4. Select the "satisfaction\_data.csv" file from the local folder
+    - Click open to load the "satisfaction\_data.csv"  file
     - Click the Upload button
        ![bucket detail](./images/bucket-detail.png "bucket-detail.png")
 
     - Wait for the **Abort** to change into **close**
     - Click the **close** button
 
-## Task 4: Create the PAR Link for the "airline\_passenger\_satisfaction" files
+## Task 4: Create the PAR Link for the "satisfaction\_data" files
 
 1. To create a PAR URL
     - Go to menu **Storage —> Buckets**
      ![Bucket menu](./images/storage-bucket-menu.png "storage bucket menu")
 
     - Select **airport-survey**  folder.
-2. Select the first file —> **airline\_passenger\_satisfaction.csv** and click the three vertical dots.
+2. Select the first file —> **satisfaction\_data.csv** and click the three vertical dots.
 3. Click on **Create Pre-Authenticated Request**
 
     ![delivery-orders-1.csv 3 dots](./images/storage-create-par-orders.png "storage create par orders")
