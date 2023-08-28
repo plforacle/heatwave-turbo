@@ -34,18 +34,18 @@
           },
           
           {
-            "title": "Lab 6: Setup HeatWave Lakehouse ",
+            "title": "Lab 5: Upload the passenger-survey data to Object Storage and add it to the Lakehouse",
             "filename": "../../do-lakehouse/do-lakehouse.md"  
           },
         
           {
-            "title": "Lab 5: Setup Oracle Analytics and HaeatWave Lakehouse TO Identify Customer Disatifaction",
+            "title": "Lab 6: Analyze passenger-survey data with Oracle Analitic Cloud",
             "filename": "../../do-oac-advanced/do-oac-advanced.md"
           }, 
     
 
           {
-            "title": "Lab 7: Use HeatWave AutoML Solve Customer Disatisfaction",
+            "title": "Lab 7: Use HeatWave AutoML ",
             "filename": "../../do-heatwave-ml/do-heatwave-ml.md"
           }, 
 
