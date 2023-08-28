@@ -91,7 +91,7 @@ In this lab, you will be guided through the following tasks:
 
 
 
-5. Wait 30 minutes for the process to finish, then continue to Task 3
+5. Wait 15 minutes for the process to finish, then continue to Task 3
     ![oac private access created  ](./images/created-pac-oac.png " created-pac-oac")
 
 ## Task 3: Get HeatWave DB Hostname **
@@ -119,25 +119,31 @@ In this lab, you will be guided through the following tasks:
 3. Create a Connection to HeatWave to build a dashboard
 
     ![analytics home page](./images/analytics-home-page.png " analytics-home-page")
+4. Click the "Create Connection" button
+    ![analytics home page](./images/analytics-dataset-connections.png " analytics-home-page")
 
-4. Search for mysql and select mysql as the database
+5. Search for Heatwave and select Heatwave as the database
 
-    Example: **HEATWAVE-HW.sub0….heatwavevcn.oraclevcn.com**
+      ![connection search for heatwave](./images/add-connection-mysql.png "aconnection search for heatwave")
 
-    ![add mysql connection](./images/add-connection-mysql.png "add-connection-mysql ")
+6. Specify the connections details
 
-5. Specify the connections details
+    - Specify the hostname of HEATWAVE-DB
+    - Use the FQDN information you save in Step 3
+    - Port: 3306
+    - Database Name: airportdb  
+    - Be sure to use the Heatwave db user name and password
 
-    - Specify the hostname of HEATWAVE-DB in FQDN from Task 4.
-    - Be sure to use mysql admin user name and password.
+   Hit the "Save" button to fisnish creating the connection.
 
     ![config myql connection](./images/config-add-connection-mysql.png "config-add-connection-mysql ")
 
-6. Select the MySQL Connection created earlier
+7. The completed connection will display  a "New Dataset" page. Click on the "Schemas" link and select the "airportdb" schema
 
-7. Double click "Manual Query" on the left panel and click ”Manual Query” tab on the bottom
+    ![open schema](./images/open-schema.png "open schema ")
+8. Double click the "passenger_survey" table. In a few seconds it will display all of the table columns. Click the "Save" icon to display the "Save Dataset As" dialog box and set the name and escription to "passenger-survey", and click the "OK" button
 
-    ![manual query](./images/manual-query-select.png "manual-query-select ")
+    ![save schema dataset](./images/schema-dataset.png "save schema dataset ")
 
 8. Add the following SQL query (find per-company average age of passengers from Switzerland, Italy and France) in the statement text box, and select “Live” in Data Access on the right, then click OK on the top
 
