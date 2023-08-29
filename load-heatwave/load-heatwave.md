@@ -51,7 +51,7 @@ In this lab, you will be guided through the following task:
 
     ![mysql estimate node](./images/mysql-generate-estimate.png "mysql estimate node ")
 
-8. Select the airportdb schema and click “Apply Node Count Estimate” to apply the node count
+8. Select the airportdb schema and click “Apply Estimated Node” to apply the node count
     ![apply node](./images/mysql-apply-node.png "apply node")
 
 9. Click “Add HeatWave Cluster” to create the HeatWave cluster

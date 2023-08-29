@@ -67,7 +67,7 @@ In this lab, you will be guided through the following tasks:
     - Go to menu **Storage —> Buckets**
      ![Bucket menu](./images/storage-bucket-menu.png "storage bucket menu")
 
-    - Select **airport-survey**  folder.
+    - Select **passenger-survey**  folder.
 2. Select the first file —> **satisfaction\_data.csv** and click the three vertical dots.
 3. Click on **Create Pre-Authenticated Request**
 
