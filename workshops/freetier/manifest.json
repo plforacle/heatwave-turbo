@@ -34,7 +34,7 @@
           },
           
           {
-            "title": "Lab 5: Upload the passenger-survey data to Object Storage and add it to the Lakehouse",
+            "title": "Lab 5: Upload passenger-survey data to Object Storage and add it to Lakehouse",
             "filename": "../../do-lakehouse/do-lakehouse.md"  
           },
         
@@ -45,12 +45,12 @@
     
 
           {
-            "title": "Lab 7: Use HeatWave AutoML ",
+            "title": "Lab 7: Create and Use HeatWave AutoML Model ",
             "filename": "../../do-heatwave-ml/do-heatwave-ml.md"
           }, 
 
           {
-            "title": "Lab 8: Build a LAMP applications with MySQL HeatWave",
+            "title": "Lab 8: Build a LAMP applications with MySQL HeatWave and AutoML Model",
             "filename": "../../create-lamp-advanced/create-lamp-advanced.md"
           },
           
